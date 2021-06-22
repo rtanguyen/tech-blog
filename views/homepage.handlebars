@@ -1,7 +1,13 @@
 <ul class="list-unstyled">
     {{#each posts as |post|}}
   <li class="d-flex justify-content-center">
-      {{> post-info post }}
+    <div class="card justify-content-center">
+      <div class="card-header d-flex justify-content-between" id="post-title">
+        <div>{{title}}</div>
+        <div>Posted by {{user.username}} on {{format_date created_at}}</div>
+      </div>
+      <div class="card-text" id="post-content">{{content}}</div>
+      </div>
   </li>
   {{/each}}
 </ul>
