@@ -1,18 +1,25 @@
-<form class="login-form">
+<div class="d-flex justify-content-center">
+<form class="card login-form">
+    <div class="card-header" id="login-header">
+        <h5 class="mb-0">login</h5>
+    </div>
+    <div class="card-body mx-auto">
     <div>
         <label for="username-login">username:</label>
-        <input type="text" id="username-login"/>
+        <input type="text" id="username-login" size="50"/>
     </div>
     <div>
         <label for="password-login">password:</label>
-        <input type="password" id="password-login"/>
+        <input type="password" id="password-login" size="50"/>
     </div>
-    <div>
-        <button type="submit">login</button>
+    <div class="d-flex justify-content-end pt-2">
+        <button type="submit" class="btn btn-outline-primary" id="login-btn">login</button>
     </div>
-    <div>
+    <div class="d-flex justify-content-end">
         <a href="/signup">Sign up instead</a>
     </div>
+    </div>
 </form>
+</div>
 
 <script src="/javascript/login.js"></script>
