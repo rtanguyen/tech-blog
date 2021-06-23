@@ -21,7 +21,7 @@ body {
 
 .card {
     width: 80%;
-    margin: 10px;
+    margin: 3px;
 }
 
 #dashboard-cards {
@@ -91,4 +91,8 @@ nav a {
 
 #add-comment-btn {
     width: 100%;
+}
+
+#post-title {
+    border-bottom: none;
 }
