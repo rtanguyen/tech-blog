@@ -21,7 +21,7 @@ Clone the repo and run ```npm i``` in the terminal.
 
 Create an '.env' file in the root folder and add the following: 
 ```
-DB_NAME='ecommerce_db'
+DB_NAME='tech_blog_db'
 DB_USER=[YOUR MYSQL USERNAME]
 DB_PW=[YOUR MYSQL PASSWORD]
 ``` 
