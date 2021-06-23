@@ -8,18 +8,18 @@
     </li>
     {{/each}}
   </ul>
-</section>
-{{/if}}
+  {{/if}}
 
-<div class="d-flex justify-content-center">
-    {{!-- <a href="/dashboard/new"> --}}
+  <div class="d-flex justify-content-center">
     <button type="submit" class="btn btn-lg btn-outline-secondary" id="add-post-btn">add new post</button>
 </div>
+</section>
+
+
 
 <div id="add-post-container"></div>
 
-<script type="text/x-handlebars-template" id="new-post-template">
-    <section>
+<div class="hide" id="new-post-container">
     <div class="d-flex justify-content-center">
     <form class="card" id="new-post-form">
         <div class="card-header" id="login-header">
@@ -40,11 +40,7 @@
         </div>
       </div>
     </form>
-    </section>
-</script>
-
+</div>
+</div>
 
 <script src="/javascript/add-post.js"></script>
-
-<script src="/javascript/add-post-form.js"></script>
-

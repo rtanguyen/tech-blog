@@ -1,4 +1,4 @@
-<section>
+<section class="update-post-container">
 <div class="d-flex justify-content-center">
 <form class="card edit-post-form">
     <div class="card-header" id="login-header">
@@ -7,18 +7,23 @@
     <div class="card-body mx-auto">
     <div>
         <label for="post-title">title</label>
-        <input type="text" class="form-control mb-3" id="new-post-title" name="post-title" size="50"/>
+        <input type="text" class="form-control mb-3" id="new-post-title" name="post-title" size="50" value="{{post.title}}"/>
     </div>
     <div class="py-2">
         <label for="post-content">content</label>
-            <textarea class="form-control" rows="3" name="post-content" ></textarea>
+        <textarea class="form-control" rows="3" name="post-content">{{post.content}}</textarea>
     </div>
     <div class="d-flex justify-content-center py-1">
         <button type="submit" class="btn btn-lg btn-outline-secondary" id="update-post-btn">update post</button>
     </div>
+
+
     <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-lg btn-outline-secondary" id="delete-post-btn"> delete post</button>
+        <button type="submit" class="btn btn-lg btn-outline-danger delete-post-btn"> delete post</button>
     </div>
+    </div>    
+    </form>
+    </div>    
 </section>
 
 

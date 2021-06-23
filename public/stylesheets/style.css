@@ -66,3 +66,29 @@ nav a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.hide {
+    display: none;
+}
+
+.comment {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment-form {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comment-info {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+#add-comment-btn {
+    width: 100%;
+}
