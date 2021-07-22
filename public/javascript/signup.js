@@ -1,5 +1,3 @@
-let image_url = "";
-
 async function signupFormHandler(event) {
     event.preventDefault();
   
@@ -27,18 +25,4 @@ async function signupFormHandler(event) {
     }
   }
 
-// document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
-
-// var myWidget = cloudinary.createUploadWidget({
-//   cloudName: 'dipwtij2r', 
-//   uploadPreset: 'miso-hungry'}, (error, result) => { 
-//     if (!error && result && result.event === "success") { 
-//       console.log('Done! Here is the image info: ', result.info); 
-//       image_url = response.info.secure_url
-//     }
-//   }
-// )
-
-// document.getElementById("upload_widget").addEventListener("click", function(){
-//     myWidget.open();
-//   }, false);
+document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
