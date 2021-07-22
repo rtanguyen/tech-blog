@@ -13,7 +13,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 ![add-post](assets/images/add-post.jpg)
 
 
-Link to deployed application: 
+Link to deployed application: [Heroku](https://rn-tech-blog.herokuapp.com/)
 
 ## Instructions
 Clone the repo and run ```npm i``` in the terminal.
